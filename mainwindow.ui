@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>859</width>
+    <height>599</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MYVECTOR</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QGraphicsView" name="graphicsView">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>0</y>
+      <width>671</width>
+      <height>431</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>859</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuTypes">
+    <property name="title">
+     <string>Types</string>
+    </property>
+    <widget class="QMenu" name="menuS_hapes">
+     <property name="title">
+      <string>S&amp;hapes</string>
+     </property>
+     <addaction name="actionC_ircle_2"/>
+     <addaction name="actionR_ectangle"/>
+     <addaction name="actionA_rc"/>
+     <addaction name="action_Text"/>
+     <addaction name="action_Path"/>
+     <addaction name="actionPo_lygon"/>
+    </widget>
+    <addaction name="actionL_ine"/>
+    <addaction name="menuS_hapes"/>
+   </widget>
+   <widget class="QMenu" name="menuF_ile">
+    <property name="title">
+     <string>C&amp;ommands</string>
+    </property>
+    <addaction name="actionEx_it"/>
+   </widget>
+   <addaction name="menuTypes"/>
+   <addaction name="menuF_ile"/>
+  </widget>
+  <action name="actionL_ine">
+   <property name="text">
+    <string>L&amp;ine</string>
+   </property>
+  </action>
+  <action name="actionC_ircle_2">
+   <property name="text">
+    <string>C&amp;ircle</string>
+   </property>
+  </action>
+  <action name="actionR_ectangle">
+   <property name="text">
+    <string>R&amp;ectangle</string>
+   </property>
+  </action>
+  <action name="actionA_rc">
+   <property name="text">
+    <string>A&amp;rc</string>
+   </property>
+  </action>
+  <action name="action_Text">
+   <property name="text">
+    <string>&amp;Text</string>
+   </property>
+  </action>
+  <action name="action_Path">
+   <property name="text">
+    <string>&amp;Path</string>
+   </property>
+  </action>
+  <action name="actionPo_lygon">
+   <property name="text">
+    <string>Po&amp;lygon</string>
+   </property>
+  </action>
+  <action name="actionEx_it">
+   <property name="text">
+    <string>Ex&amp;it</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
